@@ -1,0 +1,505 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    padding: 0 4rem;
+}
+header{
+    background-color: black;
+    padding: 10px 2rem;
+    
+
+}
+#header-all{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+#header-all .logo{
+    margin-right: auto;
+}
+#header-all .logo img {
+    width: 50%;
+   margin-right: auto;
+   
+}
+#header-all .center{
+  
+  width: 38%;
+  margin-left: auto;
+  
+}
+
+#header-all .logo{
+    width: 20%;
+}
+
+
+#header-all .center .edit:hover::before{
+    width: 100%;
+}
+    
+#header-all .center .edit::before{
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    height: 2px;
+    width: 0%;
+    transition: .5s;
+    background-color: white;
+}
+  
+
+#header-all .center a{
+    font-size: 20px;
+    margin-left: 35px;
+   color: white; 
+   position: relative;
+}
+#header-all .basket {
+    margin-left: 40px;
+  
+}
+#header-all .basket i{
+ color: white;
+ margin-left: 20px;
+}
+#header-all .edit{
+    text-decoration: none;
+}
+
+    
+
+
+
+
+
+
+
+#allmasters{
+   background-image: url('../img/masters.jpg');
+   width: 100%;
+   height: 85vh;
+   text-align: center;
+background-size: cover;
+background-position: center;
+}
+.masters{
+    margin-left: auto;
+    width:73% ;
+    padding: 27px 0;
+}
+.masters h1{
+    font-size: 100px;
+    color: #ffffff;
+    letter-spacing: 5px;
+    margin-top: 30px;
+   
+}
+.masters h3{
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    color: #ffffff;
+    margin-top: 15px;
+    text-align: center;
+    white-space: normal;
+}
+.masters button{
+    border: 1px solid #262626;
+    color: rgb(255,255,255);
+    border-color: rgb(255,255,255);
+    font-size: 14px;
+    font-weight: 600;
+    padding: 23px 50px;
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0.571);
+    margin-top: 50px;
+    letter-spacing: 2px;
+    transition: 0.5s;
+}
+
+#allmasters button:hover{
+    background-color: rgb(190,156,121);
+}
+
+#AllOffer{
+    padding: 7rem 4rem;
+
+}
+
+   .offer{
+       text-align: center;
+       padding: 2rem 0;
+   }
+
+.offer h1{
+    font-size: 45px;
+    color: #262626;
+    letter-spacing: 5px;
+    font-weight: 400;
+}
+ .offer img{
+     margin-top: 20px;
+ } 
+ .offer p{
+     margin-top: 20px;
+     font-size: 18px;
+     color: #262626;
+     font-weight: 300;
+     line-height: 1.55em;
+     
+ }
+    
+   
+.offer h3{
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    color: #ffffff;
+    margin-top: 15px;
+    text-align: center;
+    white-space: normal;
+}
+ .allphotooffer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.allphotooffer .box{
+   width: 70%;
+   margin-left: 60px;
+   text-align: center;
+}
+.allphotooffer .box img{
+  width: 45%;
+  margin-bottom: 20px;
+  
+  
+}
+.allphotooffer .box h1 {
+    font-size: 20px;
+    text-decoration: none;
+    color: #262626;
+    transition: 0.3s;
+    font-weight: 400;
+    
+}
+.allphotooffer .box h1:hover{
+ color: rgba(255, 166, 0, 0.731);
+}
+  
+.box p{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 15px;
+    color: #656565;
+}
+
+
+
+
+#AllHerald{
+  
+background-image: url('../img/herald.jpg');
+padding: 4rem;
+
+}
+
+   .herald{
+       text-align: center;
+       padding: 2rem 0;
+   }
+
+.herald h1{
+    font-size: 45px;
+    color: #262626;
+    letter-spacing: 5px;
+    font-weight: 400;
+}
+ .herald img{
+     margin-top: 20px;
+ } 
+ .herald p{
+     margin-top: 20px;
+     font-size: 18px;
+     color: #262626;
+     font-weight: 300;
+     line-height: 1.55em;
+     
+ }
+    
+   
+.herald h3{
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    color: #ffffff;
+    margin-top: 15px;
+    text-align: center;
+    white-space: normal;
+}
+ .allphotoherald{
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+    margin-top: 30px;
+    padding: 0 4rem;
+    
+}
+.allphotoherald .box{
+   width: 32%;
+   
+}
+.allphotoherald .box img{
+  width: 100%;
+  margin-bottom: 20px;
+  
+
+  
+  
+}
+.allphotoherald .box a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #262626;
+    transition: 0.3s;
+    margin-top: 20px;
+}
+.allphotoherald .box a:hover{
+ color: rgba(255, 166, 0, 0.731);
+}
+  
+ .allphotoherald .box p{
+    margin-top: 15px;
+    text-align: left;
+    font-size: 15px;
+    color: #656565;
+    margin-bottom: 15px;
+    line-height: 2em;
+    opacity: 0.9;
+}
+.allphotoherald .box .aedit{
+    font-size: 13px;
+    letter-spacing: 1px;
+    
+}
+#Coffee{
+
+  background-image: url('https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/h1-single-img-1-250x226.png');
+  padding: 10rem 0;
+  
+}
+#Coffee img{
+width: 100%;
+height: 65vh;
+}
+#Number{
+   height: 36vh;
+}
+
+#Number .allnumber{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+#Number .box{
+    text-align: center;
+}
+#Number .box span{
+    font-size: 55px;
+    color: #be9c79;;
+    letter-spacing: .05em;
+    line-height: .9em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#Number .box h1{
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 20px;
+    letter-spacing: .05em;
+    color: #262626;
+}
+#Number .box p{
+    font-size: 18px;
+    color: #656565;
+    margin-top: 10px;
+    opacity: 0.8;
+}
+
+
+#AllShop{
+  
+    background-image: url('../img/shop.jpg');
+    padding: 5rem;
+    background-size: cover;
+    background-position: center;
+}
+   
+    
+    
+    
+       .shop{
+           text-align: center;
+           
+       }
+    
+    .shop h1{
+        font-size: 45px;
+        color: #262626;
+        letter-spacing: 5px;
+        font-weight: 400;
+    }
+     .shop img{
+         margin-top: 20px;
+     } 
+     .shop p{
+         margin-top: 20px;
+         font-size: 18px;
+         color: #262626;
+         font-weight: 300;
+         line-height: 1.55em;
+         
+     }
+     #AllShop .allshop{
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+     }
+     #AllShop .box{
+         width: 22%;
+         margin-top: 20px;
+         text-align: center;
+     }
+     #AllShop .box img{
+         width: 100%;
+     }
+
+     
+.allshop .box h1 {
+    font-size: 20px;
+    text-decoration: none;
+    color: #262626;
+    transition: 0.3s;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    
+}
+.allshop .box h1:hover{
+
+    color: rgba(255, 166, 0, 0.731);
+}
+.allshop .box span{
+    font-size: 20px;
+    color: #777;
+}
+#AllGallery{
+    padding: 4rem 0;
+}    
+
+.allgalery{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.allgalery .box{
+    width: 24%;
+    position: relative;
+    
+   
+    
+}
+
+.allgalery .box img{
+    width: 100%;
+    
+    
+    
+}
+
+.gallery{
+    text-align: center;
+    
+}
+
+.gallery h1{
+ font-size: 45px;
+ color: #262626;
+ letter-spacing: 5px;
+ font-weight: 400;
+ margin-top: 50px;
+}
+
+
+.gallery p{
+  margin-top: 20px;
+  font-size: 20px;
+  color: #262626;
+  font-weight: 300;
+  line-height: 1.55em;
+  margin-bottom: 70px;
+  opacity: 0.8;
+}
+#Logo{
+    padding: 4rem;
+}
+.alllogo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.alllogo .box{
+    width: 16%;
+}
+.alllogo .box img{
+    width: 100%;
+}
+
+
+#Contact{
+    padding: 3rem 4rem;
+    background-image: url("../img/contact.jpg");
+    height: 30vh;
+}
+
+#Contact .allcontact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem 60px 1rem;
+}
+    
+    
+.allcontact .right a{
+    border: 1px solid transparent;
+    color: #ffffff;
+    text-decoration: none;
+    letter-spacing: 0.2em;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 20px 20px;
+    text-transform: uppercase;
+    transition: 0.3s;
+    background-color: #be9c79
+    
+}
+  .allcontact .left{
+      font-size: 15px;
+      color: #262626;
+      opacity: 0.9;
+  }  
+  
+    .allcontact .right a:hover{
+        background-color: #262626;
+    }
