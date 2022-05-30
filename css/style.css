@@ -64,9 +64,18 @@ header{
     margin-left: 40px;
   
 }
+.basket i span{
+    position: absolute;
+    top: -10px;
+    right: -12px;
+    font-size: 13px;
+
+}
+
 #header-all .basket i{
  color: white;
  margin-left: 20px;
+ position: relative;
 }
 #header-all .edit{
     text-decoration: none;
@@ -125,6 +134,47 @@ background-position: center;
 
 #allmasters button:hover{
     background-color: rgb(190,156,121);
+}
+
+
+@media (max-width:586px) {
+    
+       
+   
+       
+       
+      
+     .masters button{
+
+     }
+       
+    
+    .masters h1{
+        font-size: 25px;
+        text-align: center;
+    }
+    .masters h3{
+        opacity: 0;
+    }
+   
+     
+    
+        
+    .container{
+        padding: 0 2rem;
+    }
+     .allphotooffer{
+         flex-flow: column;
+         margin: 3rem 0;
+     }   
+    .allphotooffer .box{
+        width: 100%;
+        margin-bottom: 4rem;
+
+    }
+    .allphotooffer .box p{
+        width: 100%;
+    }
 }
 
 #AllOffer{
@@ -256,12 +306,16 @@ padding: 4rem;
 }
 .allphotoherald .box{
    width: 32%;
-   
+ 
+}
+
+.allphotoherald .box:hover img{
+    transform: scale(1.1);
 }
 .allphotoherald .box img{
   width: 100%;
   margin-bottom: 20px;
-  
+ transition: 1s;
 
   
   
@@ -293,13 +347,22 @@ padding: 4rem;
 }
 #Coffee{
 
-  background-image: url('https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/h1-single-img-1-250x226.png');
-  padding: 10rem 0;
+ background-image: url('https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/h1-bacground-img-2.jpg');
+  padding: 6rem 0;
+  margin: 4rem 0;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  
   
 }
 #Coffee img{
 width: 100%;
-height: 65vh;
+
+}
+.coffe-photo{
+    width: 15%;
+    margin: auto;
 }
 #Number{
    height: 36vh;
@@ -337,6 +400,44 @@ height: 65vh;
 }
 
 
+.allshop .box .shopedit a{
+    border: 2px rgb(191, 81, 81);
+    padding: 20px 35px;
+    background-color: #be9c79;
+  letter-spacing:0.2em;
+    font-size: 12px;
+    color: #ffffff;
+    text-decoration: none;
+    opacity: 0;
+    z-index: 11111111;
+    position: absolute;
+    top: 39%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 60%;
+    text-align: center;
+    transition: .5s;
+    
+}
+
+.allshop .box:hover a {
+    opacity: 1;
+  
+}
+
+ .allshop .box a:hover{
+     background-color: #262626;
+     
+ }   
+   
+
+  .allshop .box:hover{
+      opacity: 0.5;
+  }  
+    
+   
+   
+
 #AllShop{
   
     background-image: url('../img/shop.jpg');
@@ -345,6 +446,13 @@ height: 65vh;
     background-position: center;
 }
    
+#AllShop .box{
+    width: 22%;
+    margin-top: 20px;
+    text-align: center;
+    position: relative;
+    transition: .5s;
+}
     
     
     
@@ -375,11 +483,7 @@ height: 65vh;
          justify-content: space-between;
          align-items: center;
      }
-     #AllShop .box{
-         width: 22%;
-         margin-top: 20px;
-         text-align: center;
-     }
+     
      #AllShop .box img{
          width: 100%;
      }
@@ -417,14 +521,42 @@ height: 65vh;
     width: 24%;
     position: relative;
     
-   
     
 }
+.allgalery .boxedit p{
+    color: #ffffff;
+}
+.allgalery .box .boxedit{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    color: #ffffff;
+    z-index: 11111111;
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+    transition: .5s;
+    font-size: 25px;
+    letter-spacing: 0.1em;
+}
+.allgalery .box:hover .boxedit{
+    opacity: 1;
+
+}
+ 
+    
+ .allgalery .box:hover img{
+        filter: brightness(0.5);
+    }
+        
+   
+    
 
 .allgalery .box img{
     width: 100%;
     
-    
+    transition: 0.5s;
     
 }
 
@@ -461,9 +593,15 @@ height: 65vh;
 }
 .alllogo .box{
     width: 16%;
+    transition: 0.5s;
 }
 .alllogo .box img{
     width: 100%;
+    transition: .5s;
+}
+.alllogo .box:hover img{
+   filter: brightness(4);
+   
 }
 
 
@@ -503,3 +641,78 @@ height: 65vh;
     .allcontact .right a:hover{
         background-color: #262626;
     }
+
+    #End{
+        background-image: url('https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/footer-top-img-1.jpg');
+        background-size: cover;
+        background-position: center;
+        padding: 11rem;
+    }
+    .allend{
+        text-align: center;
+      
+        
+    }
+    .allend img{
+        width: 15%;
+    }
+    .allend p{
+        color: #ffffff;
+        font-size: 17px;
+        margin-top: 20px;
+        line-height: 1.5;
+    }   
+    .allend h2{
+        color: #ffffff;
+        font-size: 22px;
+        margin-top: 40px;
+        
+    }
+    .allend h5{
+        color: #ffffff;
+        font-size: 17px;
+        margin-top: 5px;
+    }
+    .allend h1{
+        color: #ffffff;
+        font-size: 22px;
+        margin-top: 60px;
+    }
+    .allend input{
+        border: 1px solid white;
+        padding: 18px 70px;
+        background-color: transparent;
+        margin-top: 20px;
+    }
+
+    #last{
+        padding: 4rem 7rem;
+        background-color: #121212;
+        width: 100%;
+      overflow: hidden;
+        
+    }
+    .alllast{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .alllast .left h2{
+        font-size: 17px;
+        color: #ffffff;
+    }
+    .alllast .centera a{
+        text-decoration: none;
+        color: white;
+        margin-left: 40px;
+        font-size: 15px;
+    }
+     .alllast .rightl i{
+         color: #ffffff;
+         margin-left: 25px;
+     }   
+     .centera{
+       
+     }
+      
+        
